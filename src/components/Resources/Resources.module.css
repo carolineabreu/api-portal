@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  /* padding: 0 240px; */
+  margin-top: 60px;
+}
+
+.title {
+  font-size: 2.25rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 3.75rem;
+}
+
+.cardItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  gap: 1.75rem;
+  width: 280px;
+}
+
+.cardIcon {
+  background: #F4F4F4;
+  border-radius: 12px;
+  height: 68px;
+  width: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardText {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.cardDescription {
+  font-size: 1rem;
+  text-align: center;
+}

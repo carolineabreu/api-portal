@@ -1,0 +1,19 @@
+.content {
+  display: flex;
+}
+
+.mainContent {
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+/* .charts {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}*/
+
+.chart {
+  width: 100%;
+  max-width: 800px;
+} 

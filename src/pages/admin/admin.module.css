@@ -1,0 +1,120 @@
+.content {
+  display: flex;
+}
+
+.mainContent {
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+.apiList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 2rem;
+}
+
+.apiCard {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.apiCard h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.greenDot,
+.redDot {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.greenDot {
+  background-color: #52a500;
+}
+
+.redDot {
+  background-color: #a50000;
+}
+
+.apiButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.editButton,
+.deleteButton,
+.modalCloseButton,
+.modalSaveButton {
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.editButton,
+.modalSaveButton {
+  color: #007bff;
+  border: 1px solid #007bff;
+}
+
+.deleteButton {
+  color: #ff5757;
+  border: 1px solid #ff5757;
+}
+
+.modalCloseButton {
+  color: #444444;
+  border: 1px solid #444444;
+}
+
+.modalButtons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  font-weight: 700;
+}
+
+.modalDeleteButtons {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  font-weight: 700;
+}
+
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.modalDeleteContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

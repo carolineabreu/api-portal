@@ -1,0 +1,32 @@
+.footer {
+  border-top: 1px solid #e6e6e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 3rem 0;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.link {
+  padding: 1rem;
+}
+
+.footerNav {
+  display: flex;
+  gap: 2rem;
+}
+
+.footerNavList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.footerNavList li a {
+  color: #454545;
+}
